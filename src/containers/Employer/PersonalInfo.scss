@@ -1,0 +1,118 @@
+.personal-info{
+    //border: 1px solid red;
+    background-color: ghostwhite;
+    width: fit-content;
+    height: 100vh;
+    width: 100vh;
+    margin-left: 160px;
+    .personal-info-container{
+        //border: 1px solid blue;
+        background-color: white;
+        width: fit-content;
+        display: flex;
+        gap: 20px;
+        
+        .personal-info-content{
+            display: flex;
+            flex-wrap: wrap;
+            margin: 10px 10px;
+            label{
+                margin-top: 20px;
+            }
+            
+            .title-personal-info{
+                //border: 1px solid orange;
+                text-transform: uppercase;
+                text-align: center;
+                font-size: 30px;
+                font-weight: 600;
+                font-style: italic;
+                margin: 18px 0;
+                color: firebrick;
+                
+            }
+            .preview-img-container{
+                
+                margin-top: 20px;
+                .label-upload{
+                    padding: 5px;
+                    border-radius: 3px;
+                    background: #ddd;
+                    margin-left: 135px;
+                    margin-top: 20px;
+                    background-color: dimgray;
+                    color: white;
+                    //border-radius: 50%;
+                    cursor: pointer;
+                    &:hover{
+                        opacity: 0.9;
+                        color: white;
+                        background-color: orange;
+                    }
+                }
+                .preview-image{
+                    //border: 1px solid orange;
+                    height: 200px;
+                    width: 200px;
+                    background: center center no-repeat;
+                    background-size: contain;
+                    cursor: pointer;
+                    border-radius: 50%;
+                    border: 1px solid black;
+                    margin: 0px 75px;
+                    margin-top: 50px;
+
+                }
+            }
+            .save-info{
+                margin-top: 150px;
+                height: 50px;
+                width: 250px;
+                margin-left: 70px;
+                border-radius: 50%;
+                background-color: dimgray;
+                color: white;
+                cursor: pointer;
+                &:hover{
+                    opacity: 0.9;
+                    color: white;
+                    background-color: red;
+                }
+            }
+            .change-password{
+                outline: none;
+                border: none;
+                margin-top:47px;
+                background-color: dimgray;
+                color: white;
+                cursor: pointer;
+                &:hover{
+                    opacity: 0.9;
+                    color: white;
+                    background-color: orange;
+                }
+            }
+            .company{
+                //border: 1px solid red;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                .btn-company-action{
+                    border: none;
+                    background-color: dimgray;
+                    color: white;
+                    height: 30px;
+                    width: 100px;
+                    border-radius: 15px;
+                    &:hover{
+                        opacity: 0.9;
+                        color: white;
+                        background-color: orange;
+                    }
+                }
+            }
+        }
+        
+    }
+    
+}

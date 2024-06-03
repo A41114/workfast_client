@@ -1,0 +1,102 @@
+.applied-cv-content{
+    height: 100vh;
+    overflow: auto;
+    #TableAppliedCv {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 1145px !important;
+        margin: 20px 30px;
+    }
+
+    #TableAppliedCv th {
+        background-color: firebrick !important;
+        border: 1px solid #ddd;
+        padding: 8px;
+        height: 70px;
+    }
+    
+    #TableAppliedCv td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        height: 70px;
+        .cv-info-text{
+            cursor: pointer;
+            opacity: 0.7;
+            &:hover{
+                color: red;
+                opacity: 1;
+            }
+        }
+        .svg-inline--fa{
+            height: 18px;
+        }
+        
+        .btn-process{
+            width: 50px;
+            border: none;
+            outline: none;
+            background-color: transparent;
+            color: black;
+            &.active{
+                color: orange;
+            }
+            &:hover{
+                color: orange;
+            }
+            
+        }
+        .btn-pass{
+            width: 50px;
+            border: none;
+            outline: none;
+            background-color: transparent;
+            color: black;
+            &.active{
+                color: green;
+            }
+            &:hover{
+                color: green;
+            }
+        }
+        .btn-fail{
+            width: 50px;
+            border: none;
+            outline: none;
+            background-color: transparent;
+            color: black;
+            &.active{
+                color: red;
+            }
+            &:hover{
+                color: red;
+            }
+        }
+    }
+
+
+    #TableAppliedCv tr:nth-child(even){background-color: #f2f2f2;}
+
+    #TableAppliedCv tr:hover {background-color: #ddd;}
+
+    #TableAppliedCv th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #04AA6D;
+        color: white;
+    }
+    .select-cv-container{
+        //border: 1px solid red;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        .choose-cv-title{
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .choose-cv{
+            width: fit-content;
+        }
+    }
+}

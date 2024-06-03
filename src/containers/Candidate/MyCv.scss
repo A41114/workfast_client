@@ -1,0 +1,72 @@
+.my-cv-content{
+    background-color: white;
+    height: 100vh;
+    overflow: auto;
+    .title-my-cv{
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        font-style: italic;
+        margin: 18px 0;
+        color: firebrick;
+    }
+    #TableManageCv {
+        
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 1145px !important;
+        margin: 20px 30px;
+        
+    }
+
+    #TableManageCv th {
+        background-color: firebrick !important;
+        border: 1px solid #ddd;
+        padding: 8px;
+        height: 70px;
+    }
+    
+    #TableManageCv td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        height: 70px;
+        width: 80px;
+        
+        .btn-cvInfo{
+            width: 35px;
+            border: none;
+            outline: none;
+            background-color: transparent;
+            color: orange;
+            &:hover{
+                color: black;
+            }
+        }
+        .btn-delete-cv{
+            width: 35px;
+            border: none;
+            outline: none;
+            background-color: transparent;
+            color: red;
+            &:hover{
+                color: black;
+            }
+        }
+        
+    }
+    
+
+
+    #TableManageCv tr:nth-child(even){background-color: #f2f2f2;}
+
+    #TableManageCv tr:hover {background-color: #ddd;}
+
+    #TableManageCv th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #04AA6D;
+        color: white;
+    }
+}

@@ -1,0 +1,146 @@
+.my-work{
+    border-top: outset;
+    display: flex;
+    gap: 200px;
+    background-color: ghostwhite;
+
+    .menu{
+        //border: 1px solid red;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-right: inset;
+        .title-menu{
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 600;
+            font-style: italic;
+            border-bottom: inset;
+            margin-bottom: 30px;
+            //color: firebrick;
+        }
+        .menu-item{
+            //border: 1px solid red;
+            font-size: 16px;
+            margin-left: 35px;
+            display: flex;
+            gap:30px;
+            margin-bottom: 20px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+        .menu-item-selected{
+            font-size: 16px;
+            margin-left: 35px;
+            display: flex;
+            gap:30px;
+            margin-bottom: 20px;
+            cursor: pointer;
+            color: firebrick;
+            font-weight: 600;
+        }
+        .menu-item-status-selected{
+            font-size: 16px;
+            margin-left: 30px;
+            display: flex;
+            gap:30px;
+            margin-bottom: 20px;
+            cursor: pointer;
+            color: firebrick;
+            font-weight: 600;
+        }
+        .menu-item-status{
+            font-size: 16px;
+            margin-left: 30px;
+            display: flex;
+            gap:30px;
+            margin-bottom: 20px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+    }
+    .user-redux-container{
+        //border: 1px solid blue;
+        background-color: white;
+        border-left: outset;
+        border-right: inset;
+        //color: firebrick;
+        .title-create-edit{
+            justify-content: center;
+            display: flex;
+            gap: 10px;
+            .title-create-form{
+                //border: 1px solid orange;
+                text-transform: uppercase;
+                text-align: center;
+                font-size: 30px;
+                font-weight: 600;
+                font-style: italic;
+                margin: 18px 0;
+                cursor: pointer;
+                &:hover{
+                    color: firebrick;
+                }
+                &.active{
+                    color: firebrick;
+                }
+            }
+            .slash-create-edit{
+                text-transform: uppercase;
+                text-align: center;
+                font-size: 30px;
+                font-weight: 600;
+                font-style: italic;
+                margin: 18px 0; 
+            }
+            .title-edit-form{
+                text-transform: uppercase;
+                text-align: center;
+                font-size: 30px;
+                font-weight: 600;
+                font-style: italic;
+                margin: 18px 0; 
+                cursor: pointer;
+                &:hover{
+                    color: firebrick;
+                }
+                &.active{
+                    color: firebrick;
+                }
+            }
+
+        }
+        .create-new-post{
+            border: none;
+            background-color: dimgray;
+            color: white;
+            height: 30px;
+            width: 100px;
+            border-radius: 15px;
+            &:hover{
+                opacity: 0.9;
+                color: white;
+                background-color: red;
+            }
+        }
+        
+        
+    }
+    .manage-status{
+        //border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        height: 100vh;
+        .title-manage-status{
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 600;
+            font-style: italic;
+            margin: 18px 0;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.edit-post{
+    border: none;
+    background-color: dimgray;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    &:hover{
+        opacity: 0.9;
+        color: white;
+        background-color: orange;
+    }
+}

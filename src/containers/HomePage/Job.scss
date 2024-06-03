@@ -1,0 +1,209 @@
+.find-job-container{
+    //border: 1px solid red;
+    background: #f4f5f5;
+    .find-job-title{
+        padding-top: 20px;
+        margin: 20px 250px;
+        //border: 1px solid black;
+        margin-left: 380px !important;
+        text-transform: uppercase;
+        text-align: left;
+        font-size: 30px;
+        font-weight: 600;
+        font-style: italic;
+        margin: 18px 0;
+        color: firebrick;
+        
+    }
+    .find-job-content{
+        padding-bottom: 20px;
+        margin: 20px 370px;
+        background: #f4f5f5;
+        //border: 1px solid orange;
+        //min-height: 590px;
+        display: flex;
+        flex-wrap: wrap;
+        gap:3px;
+
+        .search-container{
+            // border: 1px solid green;
+            width: 30%;
+            .search-content{
+                width: 300px;
+                border: 1px solid #dee0e2;
+                margin-top: 7px;
+                margin-left: 14px;
+                // border: 1px solid green;
+                // border-radius: 20px;
+                background-color: white;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                height: 33px;
+                input:focus,
+                select:focus,
+                textarea:focus,
+                button:focus {
+                    outline: none;
+                }
+                .search-icon{
+                    margin-left: 10px;
+                }
+                input{
+                    width: 360px;
+                    height: 25px;
+                    border: none;
+                    // border: 1px solid blue;
+                }
+            }
+            
+        }
+        .show-saved-only{
+            // border: 1px solid blue;
+            display: flex;
+            align-items: center;
+            width: 65%;
+            .show-save-only-btn{
+                margin-top: 7px;
+                width: 100px;
+                height: 30px;
+                outline: none;
+                border: none;
+                background-color: dimgray;
+                color: white;
+                border-radius: 12px;
+                cursor: pointer;
+                &:hover{
+                    background-color: orange;
+                    color: white;
+                }
+                &.active{
+                    background-color: orange;
+                    color: white;
+                }
+            }
+        }
+
+        .job-filter{
+            justify-content: center;
+            select{
+                text-align: left;
+               
+            }
+        }
+        .all-job{
+            margin-top: 20px;
+            //border: 1px solid red;
+            margin-left: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            height: fit-content;
+            gap: 10px;
+            .each-job{
+                cursor: pointer;
+                //border: 1px solid blue;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                width: 350px;
+                height: 100px;
+                border-radius: 12px;
+                &:hover{
+                    border: 1px solid gray;
+                }
+
+                .each-job-top{
+                    display: flex;
+                    
+                    .preview-img-container{
+                        background-color: transparent;
+                        margin: 10px 10px;
+                        border: none;
+                        outline: none;
+                        //border: 1px solid green;
+                        .preview-image{
+                            height: 50px;
+                            width: 60px;
+                            border: none;
+                        }
+                    }
+                    .each-job-title{
+                        margin-top: 10px;
+                        margin-left: 7px;
+                        font-weight: 600;
+                        width: 250px;
+                        white-space: nowrap;
+                        overflow:hidden;
+                        text-overflow:ellipsis;
+                        &:hover{
+                            color: firebrick;
+                        }
+                    }
+                    .each-job-company-name{
+                        margin-top: 2px;
+                        margin-left: 7px;
+                        opacity: 0.8;
+                        width: 250px;
+                        white-space: nowrap;
+                        overflow:hidden;
+                        text-overflow:ellipsis;
+                    }
+                }
+                .each-job-bottom{
+                    display: flex;
+                    
+                    .each-job-bottom-left{
+                        width: 90%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap:10px;
+                        margin-left: 10px;
+                        .each-job-salary{
+                            background-color: #f4f5f5;
+                        }
+                        .each-job-location{
+                            background-color: #f4f5f5;
+                        }
+                    }
+                    .each-job-bottom-right{
+                        //border: 1px solid red;
+                        color: gray;
+                        // cursor: pointer;
+                        &.active{
+                            color: red;
+                        }
+                    }
+                }
+                
+            }
+        }
+        .job-page{
+            justify-content: center;
+            width: 100%;
+            display: flex;
+            margin-top: 20px;
+            justify-self: end;
+            .pagination{
+                //border: 1px solid red;
+                .page-item{
+                    a{
+                    color: black !important;
+                    }
+                    &.disable{
+                        a{
+                            background-color: gray;
+                            color: gray !important;
+                        }
+                    }
+                    &.active{
+                        a{
+                            background-color: gray;
+                            color: white !important;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}

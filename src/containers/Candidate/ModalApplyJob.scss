@@ -1,0 +1,87 @@
+.modal-content {
+    //width: fit-content;
+    margin-top: 110px;
+    // margin-left: 300px;
+    
+    .modal-body{
+        .job-apply-form{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .choose-cv-title{
+                display: flex;
+                gap: 10px;
+                //justify-content: center;
+                align-items: center;
+                .choose-cv-to-apply{
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 24px;
+                }
+            }
+            .choose-cv-in-library{
+                color: red;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 24px;
+            }
+            .choose-in-my-cv{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                .cv-name-select{
+
+                }
+                .see-more{
+                    color: red;
+                    cursor: pointer;
+                    &:hover{
+                        color: firebrick;
+                    }
+                }
+            }
+            .choose-in-from-computer{
+                .upload-cv-title{
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}
+.apply{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin-left: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 12px;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    &:hover{
+        background-color: firebrick; 
+    }
+}
+.cancel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin-left: 20px;
+    background: #f2f4f5;
+    color: black;
+    border-radius: 12px;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    &:hover{
+        background-color: firebrick; 
+    }
+}

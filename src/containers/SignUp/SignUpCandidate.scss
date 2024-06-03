@@ -1,0 +1,17 @@
+.sign-up-container{
+    //border: 1px solid red;
+    display: flex;
+    //justify-content: end;
+    .sign-up{
+        border: none;
+        background-color: darkgray;
+        border-radius: 50%;
+        height: 30px;
+        width: 160px;
+        margin-top: 50px;
+        &:hover{
+            color: white;
+            background-color: orange;
+        }
+    }
+}

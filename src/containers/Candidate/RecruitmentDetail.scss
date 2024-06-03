@@ -1,0 +1,382 @@
+.recruitment-detail-container{
+    border: solid 1px #f4f5f5;
+    background: #f4f5f5;
+    .link{
+        display: flex;
+        margin-left: 360px;
+        gap: 10px;
+        margin-top: 50px;
+        .home-page-title{
+            color: red;
+            cursor: pointer;
+            &:hover{
+                color: firebrick;
+            }
+        }
+        .find-work-title{
+            color: red;
+            cursor: pointer;
+            &:hover{
+                color: firebrick;
+            }
+        }
+        
+    }
+    .recruitment-detail-content{
+        
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 15px;
+        
+        .left-content{
+            
+            //border: 1px solid blue;
+            width: 767px;
+            height: fit-content;
+            .left-top{
+                background-color: white;
+                border-radius: 12px;
+                .recruitment-title{
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    padding-left: 20px;
+                }
+                .attribute{
+                    display: flex;
+                    gap: 150px;
+                    .attribute-content{
+                        display: flex;
+                        margin-left: 20px;
+                        gap: 10px;
+                        span{
+                            height: 40px;
+                            width: 40px;
+                            border-radius: 50%;
+                            color: white;
+                            background-color: red;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                    }
+                }
+                .end-date{
+                    display: flex;
+                    margin-top: 20px;
+                    margin-left: 20px;
+                    height: fit-content;
+                    width: fit-content;
+                    gap: 10px;
+                    border-radius: 12px;
+                    background: #f4f5f5;
+                    span{
+                        margin-left: 10px;
+                        color: gray;
+                    }
+                    .end-date-title{
+                        margin-right: 10px;
+                        opacity: 0.8;
+                    }
+                }
+                .left-top-btn{
+                    margin-top: 30px;
+                    display: flex;
+                    gap:20px;
+                    padding-bottom: 20px;
+                    .apply-now{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap:10px;
+                        margin-left: 20px;
+                        background-color: red;
+                        color: white;
+                        border-radius: 12px;
+                        height: 40px;
+                        width: 180%;
+                        cursor: pointer;
+                        &:hover{
+                            background-color: firebrick; 
+                        }
+                        &.disable{
+                            background-color: gray;
+                        }
+                    }
+                    .save-recruitment{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap:10px;
+                        margin-right: 20px;
+                        border: 1px solid red;
+                        color: red;
+                        border-radius: 12px;
+                        height: 40px;
+                        width: 70%;
+                        cursor: pointer;
+                        &:hover{
+                            border: 2px solid red;
+                            // color: white;
+                            // background-color: firebrick;
+                        }
+                    }
+                }
+            }
+            .left-bottom{
+                margin-top: 30px;
+                background-color: white;
+                border-radius: 12px;
+                padding-bottom: 20px;
+                .recruitment-info-title{
+                    display: flex;
+                    padding-top: 15px;
+                    padding-left: 15px;
+                    font-size: 20px;
+                    font-weight: 600;
+                    gap: 10px;
+                    .start-line{
+                        width: 7px;
+                        height: 27px;
+                        background-color: red;
+                    }
+                }
+                .recruitment-info{
+                    margin-top: 20px;
+                    //border: 1px solid green;
+                    border-radius: 12px;
+                    //height: 500px;
+                    font-size: 14px;
+                    padding-left: 20px;
+                    h3{
+                        font-size: 16px
+                    }
+                }
+                .left-bottom-btn{
+                    margin-top: 30px;
+                    display: flex;
+                    gap:20px;
+                    padding-bottom: 20px;
+                    .apply-now{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap:10px;
+                        margin-left: 20px;
+                        background-color: red;
+                        color: white;
+                        border-radius: 12px;
+                        height: 40px;
+                        width: 150px;
+                        cursor: pointer;
+                        &:hover{
+                            background-color: firebrick; 
+                        }
+                        &.disable{
+                            background-color: gray;
+                        }
+                    }
+                    .save-recruitment{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap:10px;
+                        margin-right: 20px;
+                        border: 1px solid red;
+                        color: red;
+                        border-radius: 12px;
+                        height: 40px;
+                        width: 110px;
+                        cursor: pointer;
+                        // &.active{
+                        //     background-color: red;
+                        //     color: white;
+                        // }
+                        &:hover{
+                            border: 2px solid red;
+                            // color: white;
+                            // background-color: firebrick;
+                        }
+                        
+                    }
+
+                }
+                .end-date{
+                    display: flex;
+                    margin-left: 20px;
+                    height: fit-content;
+                    width: fit-content;
+                    gap: 10px;
+                    border-radius: 12px;
+                    background: #f4f5f5;
+                    span{
+                        margin-left: 10px;
+                        color: gray;
+                    }
+                    .end-date-title{
+                        margin-right: 10px;
+                        opacity: 0.8;
+                    }
+                }
+            }
+        }
+        .right-content{
+            //border: 1px solid yellow;
+            width: 355px;
+            height: 1200px;
+            .right-top{
+                background-color: white;
+                border-radius: 12px;
+                .company-title{
+                    margin-left: 10px;
+                    display: flex;
+                    //border: 1px solid green;
+                    gap: 20px;
+                    align-items: center;
+                    width: 344px;
+                    .preview-img-container{
+                        
+                        height: 100px;
+                        width: 100px;
+                        align-items: center;
+                        display: flex;
+                    }
+                }
+                .company-size{
+                    margin-left: 10px;
+                    margin-top: 15px;
+                    display: flex;
+                    gap: 20px;
+                    opacity: 0.8;
+                    span{
+                        width: 80px;
+                    }
+                }
+                .company-address{
+                    margin-left: 10px;
+                    margin-top: 15px;
+                    display: flex;
+                    gap: 20px;
+                    
+                    padding-left: 10px;
+
+                    width: 345px;
+                    opacity: 0.8;
+                    
+                    span{
+                        min-width: 70px;
+                    }
+                    .address-content{
+                        //border: 1px solid;
+                        //white-space: nowrap;
+                        overflow:hidden;
+                        text-overflow:ellipsis;
+                        width: 243px;
+                        height: fit-content;
+                    }
+                }
+                .to-company{
+                    color: red;
+                    margin-top: 15px;
+                    display: flex;
+                    justify-content: center;
+                    padding-bottom: 20px;
+                    span{
+                        cursor: pointer;
+                        &:hover{
+                            color: firebrick;
+                        }
+
+                    }
+                }
+            }
+
+            .right-middle{
+                margin-top: 20px;
+                background-color: white;
+                border-radius: 12px;
+                .right-middle-title{
+                    //border: 1px solid;
+                    display: flex;
+                    font-size: 20px;
+                    font-weight: 600;
+                    padding-left: 30px;
+                    
+                }
+                .attribute{
+                    .attribute-content{
+                        padding-left: 30px;
+                        padding-top: 10px;
+                        padding-bottom: 15px;
+                        display: flex;
+                        gap: 15px;
+                        span{
+                            height: 40px;
+                            width: 40px;
+                            border-radius: 50%;
+                            color: white;
+                            background-color: red;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        .attribute-text{
+                            .attribute-title{
+                                font-size: 14px;
+                                opacity: 0.8;
+                            }
+                            .attribute-value{
+                                font-size: 14px;
+                                font-weight: 600;
+                                opacity: 0.8;
+                            }
+                        }
+                    }
+                }
+            }
+            .right-bottom{
+                margin-top: 20px;
+                background-color: white;
+                border-radius: 12px;
+                .recruitment-field{
+                    .recruitment-field-title{
+                        font-size: 20px;
+                        font-weight: 600;
+                        padding-left: 30px;
+
+                    }
+                    .recruitment-field-value{
+                        margin-top: 10px;
+                        margin-left: 30px;
+                        background-color:#f4f5f5;
+                        width: fit-content;
+                        padding: 5px 5px;
+                        border-radius: 7px;
+                    }
+                }
+                .recruitment-location{
+                    padding-top: 20px;
+                    padding-bottom: 10px;
+                    .recruitment-location-title{
+                        font-size: 20px;
+                        font-weight: 600;
+                        padding-left: 30px;
+
+                    }
+                    .recruitment-location-value{
+                        margin-top: 10px;
+                        margin-left: 30px;
+                        background-color:#f4f5f5;
+                        width: fit-content;
+                        padding: 5px 5px;
+                        border-radius: 7px;
+                    }
+                    
+                }
+            }
+        }
+    }
+}

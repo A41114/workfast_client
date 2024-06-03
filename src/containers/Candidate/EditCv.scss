@@ -1,0 +1,131 @@
+.cv-create-form{
+    .choose-cv-name-content{
+        display: flex;
+        margin-bottom: 40px;
+        gap: 20px ;
+        justify-content: left;
+        
+        .cv-name-select{
+            width: 100px;
+            height: 50px;
+        }
+    }
+    .cv-name{
+        border: dotted;
+        outline: none;
+        margin-left: 20px;
+        height: 50px;
+        background-color: transparent;
+    }
+    .cv-create-content{
+        //border: 1px solid red;
+        width: 100vh;
+        gap: 30px;
+        .cv-create-content-left{
+            width: 50%;
+            //border: 1px solid green;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 27px;
+            justify-content: center;
+            
+            input,select{
+                border: double;
+                outline: none;
+                background-color: transparent;
+            }
+
+            .preview-img-container{
+                justify-content: center;
+                
+                .label-upload{
+                    padding: 5px;
+                    border-radius: 3px;
+                    background: #ddd;
+                    margin-left: 183px;
+                    margin-top: 20px;
+                    cursor: pointer;
+                    &:hover{
+                        opacity: 0.9;
+                    }
+                }
+                .preview-image{
+                    height: 300px;
+                    width: 300px;
+                    background: center center no-repeat;
+                    background-size: contain;
+                    cursor: pointer;
+                    border-radius: 50%;
+                    border: 1px solid black;
+                    margin: 0px 75px;
+                    margin-top: 50px;
+                    
+                }
+            
+            
+            }
+            .candidate-name{
+                height: 50px;
+                text-align: center;
+                
+                &.active{
+                    text-transform: uppercase;
+                    font-size: 18px;
+                }
+
+            }
+            .candidate-position{
+                text-align: center;
+            }
+
+            .title-input-CV{
+                text-transform: uppercase;
+                font-style: italic;
+                font-weight: 600;
+                font-size: 18px;
+                opacity: 0.8;
+            }
+            .textInput{
+                border: double;
+                outline: none;
+                background-color: transparent;
+                height: 150px;
+            }
+        }
+
+        .cv-create-content-right{
+            width: 50%;
+            //border: 1px solid blue;
+            .title-input-CV{
+                text-transform: uppercase;
+                font-style: italic;
+                font-weight: 600;
+                font-size: 18px;
+                opacity: 0.8;
+            }
+            .textInput{
+                background-color: transparent;
+                border: dotted;
+                height: 150px;
+                outline: none;
+            }
+        }
+        .create-cv{
+            width: 140px;
+            height: 50px;
+            outline: none;
+            border: none;
+            background-color: dimgray;
+            color: white;
+            border-radius: 50%;
+            margin-bottom: 70px;
+            font-size: 16px;
+            text-transform: uppercase;
+            cursor: pointer;
+            &:hover{
+                color: white;
+                background-color: red;
+            }
+        }
+    }
+}

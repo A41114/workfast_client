@@ -1,0 +1,52 @@
+.about-us{
+    background-color: gray;
+.about-us-container{
+    margin-top: 100px;
+    height: 300px;
+    background-color: gray;
+    display: flex;
+    
+    .about-us-content{
+        //border: 1px solid red;
+        margin-top: 50px;
+        margin-left: 80px;
+        width: 300px;
+        height: 230px;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        .about-us-child-content{
+
+            margin-top: 10px;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 0;
+            opacity: 0.8;
+            width: fit-content;
+            cursor: pointer;
+            &:hover{
+                color: firebrick;
+            }
+            
+        }
+        .about-us-child-btn{
+            margin-top: 40px;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 0;
+            opacity: 0.8;
+            width: fit-content;
+            cursor: pointer;
+            &:hover{
+                color: firebrick;
+            }
+        }
+    }
+    
+}
+.home-footer{
+    //border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+}
+}

@@ -1,0 +1,114 @@
+.talk-about-container{
+    margin: 30px 0px;
+    height: fit-content;
+    //border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    //justify-content: center;
+    align-items: center;
+    .talk-about-title{
+        width: 100%;
+        margin-left: 750px !important;
+        text-transform: uppercase;
+        text-align: left;
+        font-size: 30px;
+        font-weight: 600;
+        font-style: italic;
+        margin-top: 50px;
+        margin-bottom: 18px;
+        color: firebrick;
+    }
+    .talk-about-content{
+        //border: 1px solid blue;
+        width: 1280px;
+        gap:20px;
+        .talk-about-item{
+            margin-left: 5px;
+            border: 1px solid #dee0e2;
+            height: 130px;
+            display: flex !important;
+            width: 620px !important;
+            justify-content: center;
+            align-items: center;
+            .content{
+                max-width: 450px;
+                box-shadow: none;
+            }
+            .content-from-cadidate{
+                max-width: 450px;
+                box-shadow: none;
+                font-style: italic;
+            }
+            .sign{
+                font-weight: 600;
+                align-self: flex-end;
+            }
+            .dan-tri{
+                background: url(../../assets/talk_about/dantri.webp);
+                height: 100px;
+                width: 100px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            .vn-express{
+                background: url(../../assets/talk_about/vnexpress.webp);
+                height: 100px;
+                width: 100px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            .thanh-nien{
+                background: url(../../assets/talk_about/thanhnien.webp);
+                height: 100px;
+                width: 100px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            .bao-24h{
+                background: url(../../assets/talk_about/logo-24h.jpg);
+                height: 100px;
+                width: 100px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            
+        }
+
+        .slick-prev{
+            //border: 1px solid green !important;
+            left: -10px !important;
+            z-index:800 !important;
+            height: 48px !important;
+            width: 44px !important;
+            background: white !important;
+            border: 2px solid #d7d7d7 !important;
+            &:hover{
+                background:#eceaea !important ;
+            }
+        }
+
+        .slick-prev::before,.slick-next::before{
+            font-family: "Font Awesome 5 Free" !important;
+            color: red !important;
+        }
+        .slick-next{
+            //border: 1px solid green !important;
+            right: -10px !important;
+            z-index:800 !important;
+            height: 48px !important;
+            width: 44px !important;
+            background: white !important;
+            border: 2px solid #d7d7d7 !important;
+            &:hover{
+                background:#eceaea !important ;
+            }
+        }
+        .slick-disabled{
+            display: none !important;//disabled arrow at first and last slide
+        }
+    }
+}

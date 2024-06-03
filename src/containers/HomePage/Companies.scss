@@ -1,0 +1,181 @@
+.companies-container{
+    .companies-content{
+        // border: 1px solid blue;
+        .top-container{
+            // border: 1px solid red;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            background: transparent linear-gradient(6deg, #aca5a5, #6e6969 100%, rgba(255, 195, 203, 0.702) 0) 0 0 no-repeat padding-box;
+            .top-content{
+                //border: 1px solid orange;
+                height: 300px;
+                width: 1500px;
+                display: flex;
+                
+                .left-content{
+                    //border: 1px solid green;
+                    height: 300px;
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                
+                    .label-companies-list{
+                        font-weight: 600;
+                        border-bottom: 2px solid white;
+                        width: fit-content;
+                        margin-top: 20px;
+                        color: white;
+                    }
+                    .label-number-company{
+                        color: red;
+                        width: fit-content;
+                        font-size: 20px;
+                        font-weight: 600;
+                        opacity: 0.9;
+                    }
+                    .label-introduce{
+                        width: fit-content;
+                        font-size: 16px;
+                        color: white;
+                    }
+                    .search-container{
+                        width: 570px;
+                        // border: 1px solid green;
+                        border-radius: 20px;
+                        background-color: white;
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        height: 40px;
+                        input:focus,
+                        select:focus,
+                        textarea:focus,
+                        button:focus {
+                            outline: none;
+                        }
+                        .search-icon{
+                            margin-left: 20px;
+                        }
+                        input{
+                            // border: 1px solid red;
+                            width: 360px;
+                            height: 25px;
+                            border: none;
+                        }
+                        .btn-search{
+                            // border: 1px solid blue;
+                            height: 30px;
+                            width: 85px;
+                            border: none ;
+                            border-radius: 20px;
+                            color: white;
+                            background-color: gray;
+                            &.active{
+                                background-color: red;
+                            }
+                        }
+                        .btn-is-following{
+                            // border: 1px solid blue;
+                            height: 30px;
+                            width: 120px;
+                            //border: none ;
+                            margin-right: 5px;
+                            border-radius: 20px;
+                            color: white;
+                            background-color: gray;
+                            border: none ;
+                            &:hover{
+                                background-color: orange;
+                            }
+                            &.active{
+                                background-color: orange;
+                            }
+
+                        }
+                    }
+
+                }
+                .right-content{
+                    //border: 1px solid blue;
+                    height: 300px;
+                    width: 50%;
+
+                    background-image: url(../../assets/companies/business-transparent-png.png);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    width: 50%;
+                }
+            }
+        }
+        .title-companies-list{
+            display: flex;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 24px;
+            color: #333;
+            text-transform: uppercase;
+            margin: 20px 0px;
+        }
+        .bottom-container{
+            // border: 1px solid brown;
+            display: flex;
+            position: relative;
+            justify-content: center;
+            .bottom-content{
+                // border: 1px solid rgb(42, 165, 138);
+                height: fit-content;
+                width: 1500px;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                .each-company{
+                    border: 1px solid #dee0e2;
+                    border-radius: 12px;
+                    width: 486px;
+                    height: fit-content;
+                    contain: content;
+                    cursor: pointer;
+                    &:hover{
+                        border: 1px solid black;
+                        box-shadow: 0 0 7px black;
+                    }
+                    .preview-img-container{
+                        width: 500px;
+                        .preview-image{
+                            height: 220px;
+                            width: 486px;
+                            border: none;
+                        }
+                    }
+                    .company-name{
+                        //border: 1px solid blue;
+                        color: #333;
+                        font: normal normal 700 14px / 20px Inter, sans-serif;
+                        text-align: left;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        height: 40px;
+                        margin-left: 15px;
+                        margin-right: 15px;
+                        margin-top: 10px;
+                        white-space:nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                    .company-info{
+                        margin-left: 15px;
+                        margin-right: 15px;
+                        //border: 1px solid green;
+                        height: 180px;
+                        //white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                }
+            }
+        }
+    }
+}

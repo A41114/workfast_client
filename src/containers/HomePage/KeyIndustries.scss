@@ -1,0 +1,131 @@
+.key-industry-container{
+    display: flex;
+    height: 750px;
+    justify-content: center;
+    align-items: center;
+    .key-industry-content{
+        //border:1px solid red;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .key-industry-title{
+            //margin: 20px 250px;
+            //border: 1px solid black;
+            width: 100%;
+            margin-left: 380px !important;
+            text-transform: uppercase;
+            text-align: left;
+            font-size: 30px;
+            font-weight: 600;
+            font-style: italic;
+            margin: 18px 0;
+            color: firebrick;
+        }
+        .all-key-industry{
+            //border:1px solid blue;
+            width: 1146px;
+            height: 400px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap :20px;
+            .key-industry{
+                //border:1px solid red;
+                background-color: #f3f5f7;
+                border-radius: 12px;
+                height: 183px;
+                width: 266px;
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .industry-title{
+                    font-weight: 600;
+                    margin-top: 10px;
+                    color: gray;
+                }
+                .recruitments-count{
+                    color: green;
+                    
+                }
+                &:hover{
+                    background-color: white;
+                    border:1px solid red;
+                }
+                .consumables{
+                   
+                    background: url(../../assets/key_industry/consumables.webp);
+                    height: 100px;
+                    width: 100px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+                .it{
+                    
+                    background: url(../../assets/key_industry/it.webp);
+                    height: 100px;
+                    width: 100px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+                .entertainment{
+                    
+                    background: url(../../assets/key_industry/entertainment.webp);
+                    height: 100px;
+                    width: 100px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+                .travel{
+                    
+                    background: url(../../assets/key_industry/travel.webp);
+                    height: 100px;
+                    width: 100px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+                .real-estate{
+                   
+                    background: url(../../assets/key_industry/real_estate.webp);
+                    height: 100px;
+                    width: 100px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+                .securities{
+     
+                    background: url(../../assets/key_industry/securities.webp);
+                    height: 100px;
+                    width: 100px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+                .repair-mainternance{
+        
+                    background: url(../../assets/key_industry/repair-maintenance.webp);
+                    height: 100px;
+                    width: 100px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+                .insurance{
+          
+                    background: url(../../assets/key_industry/insurance.webp);
+                    height: 100px;
+                    width: 100px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+                
+            }
+        }
+    }
+}
